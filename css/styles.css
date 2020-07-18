@@ -1,4 +1,96 @@
+/*Цвет основного текста color: #212121*/
+/* вторичный цвет color: #757575;*/
+/* белый color: #FFFFFF;*/
+/* акцент color: #2196F3;*/
+/* вторичный цвет фона */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196F3;
+
+}
+
+
 body {
-    color: #2a2a2a;
-  }
- 
+  background: #FFFFFF;
+  color: var(--primary-text-color);
+}
+/* Шапка */
+
+.logo-web {
+  color: var(--accent-color);
+}
+.logo {
+ color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+.site-nave {
+ color: var(--primary-text-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.title {
+  background: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
+}
+.title-button,
+.footer-button {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+
+/* Преимущества */
+
+.edge-text {
+  color: var(--title-text-color);
+}
+.edge-img {
+  background: #F5F4FA;
+}
+
+/* Деятельность */
+
+.list-do {
+  background: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
+}
+
+/* Персонал */
+
+.personal {
+  background: #F5F4FA;
+
+}
+.personal-title {
+  color:var(--title-text-color);
+}
+.personal-link:hover,
+.personal-link:focus {
+  color:var(--accent-color);
+}
+/* Партнеры */
+
+.customers-link:hover,
+.customers-link:focus {
+  color:var(--accent-color);
+}
+
+/* Футер */
+.footer,
+.footer-logo,
+.footer-nav {
+  background: #2F303A;
+  color: #FFFFFF;
+}
+.footer-nav link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио */
